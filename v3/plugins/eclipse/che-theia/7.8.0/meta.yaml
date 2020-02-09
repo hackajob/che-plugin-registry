@@ -48,7 +48,7 @@ spec:
         discoverable: false
   containers:
    - name: theia-ide
-     image: "quay.io/eclipse/che-theia:7.8.0"
+     image: "hackajobchallenges/che-theia-branded:7.8.0"
      env:
          - name: THEIA_PLUGINS
            value: local-dir:///plugins
