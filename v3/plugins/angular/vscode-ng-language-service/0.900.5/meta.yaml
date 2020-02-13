@@ -16,4 +16,4 @@ spec:
     name: vscode-angular
     memoryLimit: '512Mi'
   extensions:
-  - https://github.com/angular/vscode-ng-language-service/releases/download/v0.900.12/ngls.vsix
+  - https://github.com/angular/vscode-ng-language-service/releases/download/v0.900.5/ngls.vsix
