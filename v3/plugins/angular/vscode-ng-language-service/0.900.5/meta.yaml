@@ -1,7 +1,7 @@
 publisher: angular
 apiVersion: v2
 name: vscode-ng-language-service
-version: 0.900.12
+version: 0.900.5
 type: VS Code extension
 displayName: VS Code ng language
 title: vscode-ng-language-service
