@@ -165,7 +165,7 @@ editors:
           discoverable: false
     containers:
       - name: theia-ide
-        image: "quay.io/eclipse/che-theia:7.26.1"
+        image: "hackajobchallenges/che-theia-branded:7.26.1"
         env:
           - name: THEIA_PLUGINS
             value: local-dir:///plugins

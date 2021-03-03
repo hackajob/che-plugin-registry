@@ -730,3 +730,16 @@ plugins:
     extensions:
       - >-
         https://download.jboss.org/jbosstools/vscode/3rdparty/vscode-eslint/vscode-eslint-2.1.1-1e15d3.vsix
+  - repository:
+      url: 'https://github.com/angular/vscode-ng-language-service'
+      revision: bbb3663dae385e48809e055c915db2d63b5b1466
+    extensions:
+      - >-
+        https://github.com/angular/vscode-ng-language-service/releases/download/v0.1100.2/ngls.vsix
+    sidecar:
+      directory: node
+      name: vscode-angular
+      memoryLimit: 1024Mi
+      memoryRequest: 256Mi
+      cpuLimit: 2
+      cpuRequest: 0.5
